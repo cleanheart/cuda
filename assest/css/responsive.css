@@ -1,0 +1,84 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media(max-width:937px){
+    .footer-area .social-list a{
+        padding: 20px;
+    }
+}
+@media(max-width:797px){
+    .footer-area .social-list a{
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:700px){
+.header .menu ul{
+    display: none;
+}
+.header .mobile-bar{
+    display: inline-block;
+}
+
+}
+@media(max-width:550px){
+
+    .portfolio-section .filter-columns .row .col{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .hero-section .txt h1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:903px){
+    .service-section .service-container .col{
+        width: 33.333%;
+    }
+}
+@media(max-width:770px){
+    .team-section .col{
+        width: 50%;
+    }
+}
+@media(max-width:679px){
+    .service-section .service-container .col{
+        width: 50%;
+    }
+
+    .testimonial-area .fidback-content .row .col{
+        width: 100%;
+    }
+    .testimonial-area .clients-info{
+        max-width: 450px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:550px){
+    .contact-form .input-area{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        gap: 0;
+    }
+}
+@media(max-width:451px){
+    .service-section .service-container .col{
+        width: 100%;
+    }
+    .team-section .col{
+        width: 100%;
+    }
+}
+@media(max-width:379px){
+    .portfolio-section .portfolio-title .heading h3{
+        font-size: 35px;
+    }
+}
