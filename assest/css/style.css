@@ -26,9 +26,9 @@ img{
     margin: auto;
 }
 /***header area start***/
-.header{
+.header-section{
     max-width: 100%;
-    padding: 10px 00px;
+    padding: 10px 10px;
     /* max-height: 597px; */
     background-color:#87509c;
 }
@@ -40,13 +40,9 @@ img{
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-between;
 }
-.header .row .logo:hover{
-    -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-            transform: rotate(360deg);
-}
+
 .header .menu ul{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -69,6 +65,7 @@ img{
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
 }
+
 .menu ul li a:hover{
     background: #c07adb;
     border-radius: 50px;
@@ -84,7 +81,7 @@ img{
 /***header area end***/
 
 .hero-section{
-    padding: 100px 00px ;
+    padding: 75px 00px ;
     text-align: center;
     background: #87509c;
 
@@ -150,6 +147,7 @@ img{
     font-size: 19px;
     line-height: 1.333;
     text-align: center;
+    text-transform:capitalize;
 }
 .service-section .service-container{
     max-width: 1050px;
@@ -168,13 +166,16 @@ img{
 
 .service-section .service-container .col{
     width: 25%;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+
     padding: 0px 9px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 
 }
 .service-container .column-content{
+    margin-bottom: 25px;
+
     text-align: center;
     color: #fff;
 }
@@ -182,8 +183,7 @@ img{
     margin-bottom: 19px;
 }
 .service-container .column-content .column-img img{
-    width: 125px;
-    height: 100px;
+    width: 120px;
 }
 .service-container .column-content .column-title h5{
     text-transform: uppercase;
@@ -192,96 +192,17 @@ img{
 }
 /****service area end*****/
 
-/* team area start */
-/* .team-section{
-    background: url(../img/5553455.jpg) center/cover,no-repeat, fixed #e7f1f8;
-    padding: 85px 00px;
-}
-.team-section .container{
-    max-width: 1050px;
-    margin: auto;
-}
-.team-heading{
-    max-width: 600px;
-    text-align: center;
-    margin: auto;
-    
-}
-.team-title h3{
-    text-transform: uppercase;
-    font-size: 35px;
-    color: #3c4761;
-}
-.team-heading hr{
-    border: 0;
-    border-top: 3px solid #1c24227a  ;
-    width: 70px;
-    margin: 15px auto;
-}
-.team-txt p{
-    color: #3c4761;
-    font-size: 17px;
-    text-align: center;
-}
-.team-membar{
-    margin-top: 50px;
-    text-align: center;
-}
-.team-membar .row{
-    display: flex;
-    flex-wrap: wrap;
-    /* flex-wrap: wrap; 
-}
-.team-membar .row .col{
-    margin: auto;
-    width: 25%;
-    padding: 0px 15px;
-    box-sizing: border-box;
-}
-.team-img img{
-    width: 170px;
-}
-.team-name{
-    color: #dacdcb;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 21px 00px;
-}
-.team-name h5{
-    color: #30bae7;
-    padding-top: 5px;
-}
-.team-txt{
-    color: pink;
-    text-align: center;
-}
-.team-txt p{
-    color: pink;
-}
-.team-membar .icon a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    background: #bdd1df;
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    margin-right: 5px;
-    margin-top: 15px;
-}
-*/
 .team-section {
     padding: 100px 0; 
     background-color: #e7f1f8;
 }
 .team-section .title-area {
     text-align: center;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 .team-section .title-area h2 {
+    font-size: 35px;
     color: #000;
     text-transform: uppercase;
 }
@@ -295,6 +216,9 @@ img{
 .team-section .title-area p {
     color: #000;
     margin-top: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 19px;
 }
 
 .team-section .team-members {
@@ -318,7 +242,8 @@ img{
     text-align: center;
 }
 .team-section .team-content img {
-    /* width: 170px; */
+    width: 200px;
+    border-radius: 50%;
 }
 .team-section .team-content h5 {
     text-transform: uppercase;
@@ -388,6 +313,7 @@ img{
     padding-top: 15px;
     font-size: 19px;
     line-height: 1.444;
+    text-transform: capitalize;
 }
 .portfolio-section .filter-content{
     margin: 50px 0px;
@@ -430,6 +356,7 @@ img{
     text-align: center;
     text-transform: uppercase;
     padding-top: 15px;
+    font-size: 21px;
 }
 .portfolio-section .load-btn{
     text-align: center;
@@ -506,10 +433,11 @@ img{
     margin-bottom: 50px;
 }
 .testimonial-area .fidback-columns .clients-img img{
-    width: 90px;
+    width: 101px;
+    border-radius: 50%;
 }
 .testimonial-area .clients-info{
-    width: 250px;
+    /* width: 250px; */
 }
 .testimonial-area .clients-info p{
     color: #fff;
